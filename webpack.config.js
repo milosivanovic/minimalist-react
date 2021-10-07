@@ -5,17 +5,15 @@ module.exports = {
     hints: false
   },
   module: {
-    rules: [
-      {
-        test: /.jsx?$/,
-        exclude: /node_modules/,
-        loader: 'esbuild-loader',
-		options: {
-			loader: 'jsx',
-			target: 'es2020',
-		}
+    rules: [{
+      test: /.jsx?$/,
+      exclude: /node_modules/,
+      loader: 'esbuild-loader',
+      options: {
+        loader: 'jsx',
+        target: 'es2020',
       }
-    ]
+    }]
   },
   resolve: {
     extensions: ['*', '.js', '.jsx'],
