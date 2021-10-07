@@ -8,11 +8,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
-    "@babel/preset-react": "^7.14.5",
-    "babel-loader": "^8.2.2",
     "error-overlay-webpack-plugin": "^1.0.0",
+    "esbuild-loader": "^2.15.1",
     "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
