@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "webpack serve --progress --mode development",
-    "build": "esbuild src/index.jsx --bundle --outfile=dist/main.js"
+    "build": "esbuild src/index.jsx --bundle --minify --outfile=dist/main.js"
   },
   "packageManager": "yarn@3.0.2"
 }
